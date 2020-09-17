@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,32 +8,172 @@
   <title>Стартовый шаблон</title>
   <link rel="stylesheet" href="css/style.min.css">
 </head>
+
 <body class="page">
   <header class="page__header header">
     <section class="promo">
-      <div class="logo logo--promo">
-        <img class="logo__img" src="img/projeco-logo.svg" alt="Логотип">
+      <div class="container">
+        <a class="logo logo--promo">
+          <img class="logo__img" src="img/projeco-logo.svg" alt="Логотип">
+        </a>
+        <div class="img-wrap promo__img-wrap">
+          <img class="promo__img" src="img/bg.jpg" alt="Изображение грандиозной конструкции">
+        </div>
+        <h1 class="page__title promo__title">
+          Partner with construct
+        </h1>
+        <p class="promo__slogan">
+          An award-winning construction management firm
+        </p>
+        <button class="button button__down">
+          Scroll down
+        </button>
       </div>
-      <div class="promo__img-wrap">
-        <img class="promo__img" src="img/bg.jpg" alt="Изображение грандиозной конструкции">
-      </div>
-      <h1 class="page__header promo__header">
-        Partner with construct
-      </h1>
-      <p class="promo__slogan">
-        An award-winning construction management firm
-      </p>
-      <button class="button button__down">
-        Scroll down
-      </button>
     </section>
+    <div class="navbar">
+      <div class="container">
+        <a class="logo logo--nav" href="/">
+          <img class="logo__img" src="img/projeco-logo-black.svg" alt="Логотип">
+        </a>
+        <nav class="navbar__menu nav">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a class="nav__link" href="#">Home</a>
+            </li>
+            <li class="nav__item nav__item--active">
+              <a class="nav__link" href="#">About</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="#">Services</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="#">Work</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="#">Contact</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </div>
   </header>
-
   <main class="page__main main">
-
+    <section class="about">
+      <div class="container">
+        <h2 class="about__title">Our story</h2>
+        <div class="about__wrap">
+          <div class="about__desc">
+            <p class="about__lead">
+              Founded in 2011 by John Mathew Smith, Konstruct has become the number one construction management firm
+            </p>
+            <p class="about__text">
+              Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat.
+            </p>
+          </div>
+          <div class="about__branches branches">
+            <ul class="branches__list">
+              <li class="branches__item branch">
+                <a class="branch__link" href="/">
+                  <h3 class="branch__item">We plan</h3>
+                  <div class="img-wrap branch__img-wrap">
+                    <img class="branch__img" src="img/story-1.jpg" alt="Branch 1">
+                  </div>
+                </a>
+              </li>
+              <li class="branches__item branch">
+                <a class="branch__link" href="/">
+                  <h3 class="branch__item">We manage</h3>
+                  <div class="img-wrap branch__img-wrap">
+                    <img class="branch__img" src="img/story-2.jpg" alt="Branch 2">
+                  </div>
+                </a>
+              </li>
+              <li class="branches__item branch">
+                <a class="branch__link" href="/">
+                  <h3 class="branch__item">We build</h3>
+                  <div class="img-wrap branch__img-wrap">
+                    <img class="branch__img" src="img/story-3.jpg" alt="Branch 3">
+                  </div>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="services">
+      <div class="container">
+        <div class="">
+          <h2 class="services__title">Our capabilities</h2>
+          <p class="services__text">
+            Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat.
+          </p>
+          <a class="button button__action services__link" href="/">All services</a>
+        </div>
+        <ul class="services__list">
+          <li class="services__item service">
+            <div class="img-wrap service__img-wrap">
+              <img class="service__img" src="img/service-1.png" alt="Service 1">
+            </div>
+            <h3 class="service__title">
+              Project and construction management
+            </h3>
+            <p class="service__text">
+              Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat.
+            </p>
+          </li>
+          <li class="services__item service">
+            <div class="img-wrap service__img-wrap">
+              <img class="service__img" src="img/service-2.png" alt="Service 2">
+            </div>
+            <h3 class="service__title">
+              Structure audit and maintenance
+            </h3>
+            <p class="service__text">
+              Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat.
+            </p>
+          </li>
+          <li class="services__item service">
+            <div class="img-wrap service__img-wrap">
+              <img class="service__img" src="img/service-3.png" alt="Service 3">
+            </div>
+            <h3 class="service__title">
+              Factory construction and modeling
+            </h3>
+            <p class="service__text">
+              Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat.
+            </p>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section class="get-in-touch">
+      <div class="container">
+        <h2 class="get-in-touch__title">Want to build something amazing?</h2>
+        <a class="button button__action get-in-touch__link" href="/">Get in touch</a>
+      </div>
+    </section>
   </main>
-
   <footer class="page__footer footer">
+    <div class="signup">
+      <div class="container">
+        <h2 class="signup__title">Newsletter Signup</h2>
+        <form class="signup__form" action="#">
+        </form>
+      </div>
+    </div>
+    <div class="">
+      <div class="container">
+      </div>
+    </div>
+    <div class="copyright">
+      <div class="container">
+        <p class="copyright__text">
+          © 2017 Konstruct Inc. Designed by Jane Kathryn Teo
+        </p>
+      </div>
+    </div>
   </footer>
 </body>
+
 </html>
