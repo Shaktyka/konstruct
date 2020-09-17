@@ -1,7 +1,7 @@
 {
-  "name": "Liga-A-start-template",
+  "name": "konstruct",
   "version": "1.0.0",
-  "description": "Стартовый шаблон сборки Лиги А",
+  "description": "Свёрстанный макет Konstruct",
   "devDependencies": {
     "@htmlacademy/editorconfig-cli": "1.x",
     "autoprefixer": "9.5.x",
