@@ -1,0 +1,58 @@
+.about {
+  margin-bottom: 118px;
+}
+
+.about__wrap {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.about__title {
+  position: relative;
+  margin: 0;
+  margin-bottom: 82px;
+
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 100%;
+  letter-spacing: 2.21px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.about__title::before {
+  position: absolute;
+  content: "";
+  bottom: -12px;
+  left: calc(50% - 25px);
+  width: 50px;
+  height: 2px;
+  background-color: $lblue;
+}
+
+.about__desc,
+.about__branches {
+  width: 460px;
+}
+
+.about__desc {
+  padding-right: 58px;
+}
+
+.about__lead {
+  margin: 0;
+  margin-bottom: 13px;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 135%;
+}
+
+.about__corp-name {
+  color: $lblue;
+}
+
+.about__text {
+  margin: 0;
+}
