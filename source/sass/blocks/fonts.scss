@@ -1,19 +1,21 @@
-/*
 @font-face {
-  font-family: "PT Sans";
-  src: local("PTSans"), local("PTSans-Regular");
-  src: url("../fonts/ptsans.woff2") format("woff2"), url("../fonts/ptsans.woff") format("woff");
+  font-family: "BebasNeue";
+  src: local("BebasNeue Regular"), local("BebasNeue-Regular");
+  src:
+    url("../fonts/bebasneue/bebasneueregular.woff2") format("woff2"),
+    url("../fonts/bebasneue/bebasneueregular.woff") format("woff");
   font-style: normal;
   font-weight: 400;
   font-display: swap;
 }
 
 @font-face {
-  font-family: "PT Sans";
-  src: local("PT Sans Bold"), local("PTSans-Bold");
-  src: url("../fonts/ptsansbold.woff2") format("woff2"), url("../fonts/ptsansbold.woff") format("woff");
+  font-family: "BebasNeue";
+  src: local("BebasNeue Bold"), local("BebasNeue-Bold");
+  src:
+    url("../fonts/bebasneue/bebasneuebold.woff2") format("woff2"),
+    url("../fonts/bebasneue/bebasneuebold.woff") format("woff");
   font-style: normal;
-  font-weight: 500;
+  font-weight: 700;
   font-display: swap;
 }
- */
