@@ -1,0 +1,12 @@
+.navbar {
+  padding: 25px 0;
+  background-color: $white;
+  border: 1px solid $e6;
+}
+
+.navbar .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
