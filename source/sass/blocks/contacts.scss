@@ -1,13 +1,13 @@
-.company {
-  width: 250px;
-  max-width: 250px;
-  margin-right: 70px;
+.contacts {
+  width: 140px;
+  max-width: 140px;
 }
 
-.company__title {
+.contacts__title {
   margin: 0;
   margin-bottom: 19px;
 
+  color: $white;
   font-size: 11px;
   line-height: 100%;
   letter-spacing: 0.85px;
@@ -15,14 +15,13 @@
   text-transform: uppercase;
 }
 
-.company__logo {
-  margin-bottom: 15px;
-}
-
-.company__text {
+.contacts__address {
   margin: 0;
   font-size: 11px;
-  line-height: 19px;
+  line-height: 16px;
   letter-spacing: 0.85px;
-  font-weight: 400;
+}
+.contacts__phone a,
+.contacts__email a {
+  color: $white;
 }

@@ -1,0 +1,28 @@
+.social {
+  width: 140px;
+  max-width: 140px;
+  margin-left: auto;
+  padding-top: 30px;
+
+  display: flex;
+  justify-content: center;
+}
+
+.social__list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.social__item,
+.social__link {
+  display: flex;
+}
+
+.social__item:not(:last-child) {
+  margin-right: 25px;
+}
