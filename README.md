@@ -1,1 +1,1 @@
-![Скриншот страницы]('/source/img/site_screen.jpg')
+![Скриншот страницы](/source/img/site_screen.jpg)
