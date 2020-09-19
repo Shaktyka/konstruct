@@ -1,0 +1,26 @@
+.service {
+  width: 295px;
+  min-height: 330px;
+  padding: 37px 22px 38px 22px;
+  border: 1px solid $e6;
+}
+
+.service__img-wrap {
+  margin-bottom: 25px;
+}
+
+.service__title {
+  margin: 0;
+  padding-bottom: 13px;
+
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.43px;
+}
+
+.service__text {
+  margin: 0;
+  padding: 0;
+}

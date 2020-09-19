@@ -1,9 +1,12 @@
+.services {
+  margin-bottom: 114px;
+}
+
 .services__title {
   width: 220px;
   position: relative;
   margin: 0;
   margin-right: 133px;
-  /*margin-bottom: 82px;*/
 
   font-size: 18px;
   font-weight: bold;
@@ -40,4 +43,15 @@
 
 .services__link {
   margin-left: auto;
+}
+
+.services__list {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }
