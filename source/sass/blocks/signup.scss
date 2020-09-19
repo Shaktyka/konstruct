@@ -1,0 +1,26 @@
+.signup {
+  padding: 30px 0;
+}
+
+.signup .container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.signup__title {
+  margin: 0;
+  margin-right: 70px;
+
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 100%;
+  letter-spacing: 0.85px;
+  color: $white;
+}
+
+.signup__button {
+  min-width: 150px;
+}

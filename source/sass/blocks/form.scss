@@ -1,0 +1,19 @@
+.form {
+  margin: 0;
+  padding: 0;
+}
+
+.form__group {
+  display: flex;
+  align-items: stretch;
+}
+
+.form__input {
+  box-sizing: border-box;
+  width: 286px;
+  min-height: 40px;
+  padding: 10px 15px;
+
+  background-color: $white;
+  border: 1px solid #979797;
+}
