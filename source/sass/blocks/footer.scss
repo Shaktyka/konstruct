@@ -1,7 +1,24 @@
 .footer {
   background-color: $dgray;
+  color: $white;
 }
 
 .footer__menu {
+  min-height: 240px;
   background-color: $blue_gray;
+  padding: 42px 0 40px;
+}
+
+.footer__menu .container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.footer__nav {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
