@@ -1,0 +1,43 @@
+.services__title {
+  width: 220px;
+  position: relative;
+  margin: 0;
+  margin-right: 133px;
+  /*margin-bottom: 82px;*/
+
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 100%;
+  letter-spacing: 2.21px;
+  text-transform: uppercase;
+}
+
+.services__title::before {
+  position: absolute;
+  content: "";
+  bottom: -12px;
+  left: 0;
+  width: 50px;
+  height: 2px;
+  background-color: $lblue;
+}
+
+.services__desc {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin-bottom: 76px;
+}
+
+.services__text {
+  width: 387px;
+  margin: 0;
+  padding: 0;
+  font-size: 11px;
+  line-height: 19px;
+  letter-spacing: 0.2px;
+}
+
+.services__link {
+  margin-left: auto;
+}
